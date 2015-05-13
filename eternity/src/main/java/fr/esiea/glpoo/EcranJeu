@@ -1,0 +1,36 @@
+package Window;
+
+import java.awt.Color;
+import java.awt.Container;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JSplitPane;
+
+public class EcranJeu extends JFrame {
+
+	private JPanel panel= new JPanel();
+	private JPanel panel1= new JPanel();
+
+	private static final long serialVersionUID = 1L;
+
+	public EcranJeu() {
+
+		 Container contenu = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT); 
+
+		
+		this.setTitle("Eternity");
+		this.setSize(1024,720);
+		this.setLocationRelativeTo(null);
+		this.setResizable(false);
+		panel.setBackground(Color.BLACK);
+		contenu.add(panel);
+
+		contenu.setEnabled(false);
+		panel1.setBackground(Color.BLUE);
+		contenu.add(panel1);
+		((JSplitPane) contenu).setDividerLocation(512);
+		this.setContentPane(contenu);
+	}
+
+}
