@@ -1,0 +1,7 @@
+Ce jeu a été concu dans le cadre d'un projet de génie logiciel
+
+ en 3ème année à l'ESIEA ( grande école d'ingénieur du monde du numérique)
+ 
+ Les auteurs de ce jeu sont : Ange FOFE, Amine BERDAOUI, Alperen GUCLU
+
+ Andy HARVEL, Rémi IM, Souhel BEMAT, Yassine TRIKI ET Jalil MANKOURI
