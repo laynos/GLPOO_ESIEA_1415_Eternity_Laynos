@@ -1,4 +1,4 @@
-package fenêtre_de_jeu;
+package fenï¿½tre_de_jeu;
 
 import java.awt.BorderLayout;
 import java.awt.Dimension;
@@ -25,9 +25,9 @@ import options_du_jeu.RedimensionnerTerrain;
 import options_du_jeu.RemplirGrille;
 import options_du_jeu.RemplirGrilleDuBord;
 import options_du_jeu.ResetJeu;
-import création_pièces_terrain.Terrain;
+import crï¿½ation_piï¿½ces_terrain.Terrain;
 
-//Création de la fenêtre de jeu
+//Crï¿½ation de la fenï¿½tre de jeu
 /**
  * @author ange__000
  * @version $Revision: 1.0 $
@@ -37,7 +37,7 @@ public class FenetreDeJeu extends JFrame {
 
 	public FenetreDeJeu() {
 		super(
-				"Création de puzzle Eternity by FOFE, HARVEL, GUCLU, BERDAOUI, TRIKI, IM, BEMAT, MANKOURI");
+				"Crï¿½ation de puzzle Eternity by FOFE, HARVEL, GUCLU, BERDAOUI, TRIKI, IM, BEMAT, MANKOURI");
 
 		Terrain gridmodel = new Terrain(8);
 
@@ -188,7 +188,7 @@ public class FenetreDeJeu extends JFrame {
 		mgSize.add(new JMenuItem(new RedimensionnerTerrain(gridModel, 30,
 				gridView)));
 
-		JMenu mgFB = new JMenu("terrain entier");
+		JMenu mgFB = new JMenu("Terrain entier");
 		mgFB.add(new JMenuItem(new RemplirGrille(gridModel, 2, gridView)));
 		mgFB.add(new JMenuItem(new RemplirGrille(gridModel, 3, gridView)));
 		mgFB.add(new JMenuItem(new RemplirGrille(gridModel, 4, gridView)));

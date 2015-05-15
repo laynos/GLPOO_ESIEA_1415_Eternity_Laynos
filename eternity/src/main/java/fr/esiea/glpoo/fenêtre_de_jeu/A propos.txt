@@ -1,7 +1,7 @@
-Ce jeu a été concu dans le cadre d'un projet de génie logiciel
+Ce jeu a ï¿½tï¿½ concu dans le cadre d'un projet de gï¿½nie logiciel
 
- en 3ème année à l'ESIEA ( grande école d'ingénieur du monde du numérique)
+ en 3ï¿½me annï¿½e ï¿½ l'ESIEA ( grande ï¿½cole d'ingï¿½nieur du monde du numï¿½rique)
  
  Les auteurs de ce jeu sont : Ange FOFE, Amine BERDAOUI, Alperen GUCLU
 
- Andy HARVEL, Rémi IM, Souhel BEMAT, Yassine TRIKI ET Jalil MANKOURI
+ Andy HARVEL, Rï¿½my IM, Souhel BEMAT, Yassine TRIKI ET Jalil MANKOURI

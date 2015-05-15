@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import javax.swing.AbstractAction;
 import javax.swing.JFrame;
 
-import fenêtre_de_jeu.A_Propos;
+import fenï¿½tre_de_jeu.A_Propos;
 
 /**
  * @author ange__000
@@ -25,7 +25,7 @@ public class AboutAction extends AbstractAction {
 	 *            JFrame
 	 */
 	public AboutAction(JFrame parent) {
-		super("auteurs");
+		super("Auteurs");
 		this.parent = parent;
 	}
 
