@@ -5,7 +5,6 @@ import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JMenu;
@@ -21,10 +20,10 @@ public class EcranJeu extends JFrame{
 	private static final long serialVersionUID = 1L;
 
 	private JPanel panel;
-/* */	private JButton[][] Board;	
-/* */	private JButton[][] Pioche;	
+/* 	private JButton[][] Board;	
+ 	private JButton[][] Pioche;	
 
-	private int size = 4;	/* taille choisi : 4 x 4 */
+	private int size = 4;	 taille choisi : 4 x 4 */
 	private static int timeCompteur = 0;
 	private static int score = 1000;  /* On commence avec un score de 1000 */
 
